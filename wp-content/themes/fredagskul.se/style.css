@@ -53,7 +53,7 @@ a
 .btn
 {
 	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: normal;
 	font-size: 14px;
 	border: none;
 }
@@ -63,6 +63,7 @@ a
 	background: #eee;
 	border: 2px solid #eee;
 	box-shadow: none;
+	transition: color in-ease 2s;
 }
 
 .form-control:focus
@@ -72,6 +73,12 @@ a
 	box-shadow: none;
 }
 
+.form-control:focus::-webkit-input-placeholder
+{
+	color: #fff;
+}
+
+
 .form-group-lg .form-control, .input-lg
 {
 	height: 54px;
@@ -79,7 +86,7 @@ a
 
 .btn-lg
 {
-	padding: 17px 20px;
+	padding: 17px 30px;
 	border-radius: 5px;
 }
 
