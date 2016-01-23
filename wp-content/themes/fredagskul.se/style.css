@@ -55,6 +55,7 @@ a
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 14px;
+	border: none;
 }
 
 .form-control
@@ -67,16 +68,18 @@ a
 .form-control:focus
 {
 	background: #fff;
+	border-color: #ccc;
+	box-shadow: none;
 }
 
 .form-group-lg .form-control, .input-lg
 {
-	height: 50px;
+	height: 54px;
 }
 
 .btn-lg
 {
-	padding: 15px 20px;
+	padding: 17px 20px;
 	border-radius: 5px;
 }
 
