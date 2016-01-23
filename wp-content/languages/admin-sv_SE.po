@@ -16,79 +16,79 @@ msgstr "Tack för att du uppdaterar! WordPress %s gör din webbplats mer anslute
 
 #. translators: 1: WP_Term class name, WP_Comment class name, WP_Network class
 #. name
-#: wp-admin/about.php:177
+#: wp-admin/about.php:185
 msgid "New %1$s, %2$s, and %3$s objects make interacting with terms, comments, and networks more predictable and intuitive in code."
 msgstr "De nya objekten %1$s, %2$s och %3$s gör det i kod mer förutsägbart och intuitivt att interagera med."
 
-#: wp-admin/about.php:174
+#: wp-admin/about.php:182
 msgid "Term, comment, and network objects"
 msgstr "Term-, kommentar- och nätverksobjekt"
 
 #. translators: WP_Comment_Query class name
-#: wp-admin/about.php:170
+#: wp-admin/about.php:178
 msgid "Comment queries now have cache handling to improve performance. New arguments in %s make crafting robust comment queries simpler."
 msgstr "Kommentarsförfrågningar (queries) har nu cachehantering för att förbättra prestandan. Nya argument i %s gör det enklare att skapa robusta kommentarsförfrågningar."
 
-#: wp-admin/about.php:167
+#: wp-admin/about.php:175
 msgid "Comment query improvements"
 msgstr "Förbättringar för kommentarsförfrågningar"
 
-#: wp-admin/about.php:156
+#: wp-admin/about.php:164
 msgid "Term meta"
 msgstr "Termmeta"
 
 #. translators: 1: add_term_meta() docs link, 2: get_term_meta() docs link, 3:
 #. update_term_meta() docs link
-#: wp-admin/about.php:159
+#: wp-admin/about.php:167
 msgid "Terms now support metadata, just like posts. See %1$s, %2$s, and %3$s for more information."
 msgstr "Termer har nu stöd för metadata, precis som inlägg. Se %1$s, %2$s och %3$s för mer information."
 
 #. translators: WordPress REST API plugin link
-#: wp-admin/about.php:148
+#: wp-admin/about.php:156
 msgid "Infrastructure is the first part of a multi-stage rollout for the REST API. Inclusion of core endpoints is targeted for an upcoming release. To get a sneak peek of the core endpoints, and for more information on extending the REST API, check out the official %s plugin."
 msgstr "Infrastrukturen är en av flera delar för utrullningen av REST API. Inkludering av slutpunkter för grundsystemet är planerade i kommande release. För att tjuvtitta på slutpunkterna och för att få mer information på hur man utnyttjar REST API, kolla in det officiella tillägget %s."
 
-#: wp-admin/about.php:131
+#: wp-admin/about.php:139
 msgid "Infrastructure for the REST API has been integrated into core, marking a new era in developing with WordPress. The REST API serves to provide developers with a path forward for building and extending RESTful APIs on top of WordPress."
 msgstr "Infrastrukturen för REST API har integrerats i kärnan, början på en ny era i utvecklingen av WordPress. REST API ger utvecklare möjlighet att bygga och utvidga RESTful APIer ovanpå WordPress."
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:137
 msgid "REST API infrastructure"
 msgstr "Infrastruktur för REST API"
 
-#: wp-admin/about.php:118
+#: wp-admin/about.php:126
 msgid "In addition to post embeds, WordPress 4.4 also adds support for five new oEmbed providers: Cloudup, Reddit&nbsp;Comments, ReverbNation, Speaker&nbsp;Deck, and VideoPress."
 msgstr "Förutom inläggsinbäddningar kommer WordPress 4.4 även med utökat stöd för fem nya oEmbed-leverantörer. Cloudup, Reddit-kommentarer, ReverbNation, Speaker&nbsp;Deck och VideoPress."
 
-#: wp-admin/about.php:117
+#: wp-admin/about.php:125
 msgid "Even more embed providers"
 msgstr "Ännu fler inbäddningsmöjligheter"
 
-#: wp-admin/about.php:104
+#: wp-admin/about.php:112
 msgid "Now you can embed your posts on other sites, even other WordPress sites. Simply drop a post URL into the editor and see an instant embed preview, complete with the title, excerpt, and featured image if you&#8217;ve set one. We&#8217;ll even include your site icon and links for comments and sharing."
 msgstr "Nu kan du bädda in dina inlägg på andra webbplatser, även andra WordPress-webbplatser. Ange inläggsadressen i redigeraren och se en förhandsgranskning av inbäddningen direkt, komplett med titel, utdrag och utvald bild (om du angivit en). Vi inkluderar till och med din webbplatsikon, länkar för kommentarer och delningsmöjligheter."
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:98
 msgid "WordPress now takes a smarter approach to displaying appropriate image sizes on any device, ensuring a perfect fit every time. You don&#8217;t need to do anything to your theme, it just works."
 msgstr "WordPress har nu ett smartare förhållningssätt till att visa lämpliga bildstorlekar oavsett enhet, vilket garanterar en perfekt passform varje gång. Du behöver inte göra något i ditt tema, det bara fungerar."
 
-#: wp-admin/about.php:103
+#: wp-admin/about.php:111
 msgid "Embed your WordPress content"
 msgstr "Bädda in ditt WordPress-innehåll"
 
-#: wp-admin/about.php:89
+#: wp-admin/about.php:97
 msgid "Responsive images"
 msgstr "Responsiva bilder"
 
-#: wp-admin/about.php:67
+#: wp-admin/about.php:75
 msgid "Twenty Sixteen was built to look great on any device. A fluid grid design, flexible header, fun color schemes, and more, will make your content shine."
 msgstr "Twenty Sixteen skapades för att se lika bra ut i alla slags enheter. En flytande rutnätsdesign, ett flexibelt sidhuvud, trevliga färgscheman och mycket annat kommer att få ditt innehåll att glänsa."
 
-#: wp-admin/about.php:66
+#: wp-admin/about.php:74
 msgid "Our newest default theme, Twenty Sixteen, is a modern take on a classic blog design."
 msgstr "Vårat senaste standardtema, Twenty Sixteen, är en modern tolkning av en klassisk bloggdesign."
 
-#: wp-admin/about.php:59
+#: wp-admin/about.php:67
 msgid "Twenty Sixteen"
 msgstr "Twenty Sixteen"
 
@@ -112,7 +112,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Välkommen till %s. Det här är ditt första inlägg. Redigera eller radera det, sen kan du börja blogga."
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:214
+#: wp-admin/about.php:222
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "<strong>Version %s</strong> åtgärdar en sårbarhet."
 
@@ -129,15 +129,15 @@ msgstr "https://sv.gravatar.com/"
 msgid "Profile Picture"
 msgstr "Profilbild"
 
-#: wp-admin/about.php:205
+#: wp-admin/about.php:213
 msgid "Maintenance Releases"
 msgstr "Underhållsrelease"
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:216
 msgid "Security Releases"
 msgstr "Säkerhetsrelease"
 
-#: wp-admin/about.php:211
+#: wp-admin/about.php:219
 msgid "Maintenance and Security Releases"
 msgstr "Underhålls- och säkerhetsrelease"
 
@@ -975,7 +975,7 @@ msgstr "Bidragslämnare för dokumentation"
 msgid "You&rsquo;re using the auto-generated password for your account. Would you like to change it?"
 msgstr "Du använder det automatiskt genererade lösenordet för ditt konto. Vill du ändra det?"
 
-#: wp-admin/users.php:360
+#: wp-admin/users.php:361
 msgid "You have specified this user for removal:"
 msgstr "Du har markerat följande användare för borttagning:"
 
@@ -1547,11 +1547,11 @@ msgstr "Huvudmeny"
 msgid "Enter the location on the server where the public and private keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "Ange sökvägen på servern där dom publika och privata nycklarna är lokaliserade. Om en lösenordsfras behövs, ange den i lösenordsfältet ovan."
 
-#: wp-admin/users.php:266
+#: wp-admin/users.php:267
 msgid "What should be done with content owned by these users?"
 msgstr "Vad vill du göra med innehåll som skapats av dessa användare?"
 
-#: wp-admin/users.php:241
+#: wp-admin/users.php:242
 msgid "You have specified these users for deletion:"
 msgstr "Du har markerat följande användare för radering:"
 
@@ -1573,7 +1573,7 @@ msgid_plural "%d media attachments moved to the trash."
 msgstr[0] "%d mediabilaga flyttad till papperskorgen."
 msgstr[1] "%d mediabilagor flyttade till papperskorgen."
 
-#: wp-admin/users.php:419
+#: wp-admin/users.php:420
 msgid "%s user deleted."
 msgid_plural "%s users deleted."
 msgstr[0] "%s användare raderad."
@@ -1975,7 +1975,7 @@ msgstr "Du kan aktivera distraktionsfritt skrivläge via ikonen till höger. Den
 msgid "Log Out Everywhere"
 msgstr "Logga ut överallt"
 
-#: wp-admin/about.php:65
+#: wp-admin/about.php:73
 msgid "Introducing Twenty Sixteen"
 msgstr "Vi presenterar Twenty Sixteen"
 
@@ -2449,7 +2449,7 @@ msgstr "Sök teman"
 msgid "Search themes..."
 msgstr "Sök efter teman..."
 
-#: wp-admin/includes/ms.php:1055 wp-admin/users.php:270
+#: wp-admin/includes/ms.php:1055 wp-admin/users.php:271
 msgid "Delete all content."
 msgstr "Radera allt innehåll."
 
@@ -2470,11 +2470,11 @@ msgstr "Detaljer &amp; förhandsgranskning"
 msgid "Delete brings you to the Delete Users screen for confirmation, where you can permanently remove a user from your site and delete their content. You can also delete multiple users at once by using Bulk Actions."
 msgstr "Radera tar dig till sidan för radering av användare för bekräftelse, där kan du permanent radera användaren och deras innehåll från din webbplats. Du kan även ta bort flera användare samtidigt genom att använda massåtgärder."
 
-#: wp-admin/users.php:264
+#: wp-admin/users.php:265
 msgid "What should be done with content owned by this user?"
 msgstr "Vad ska göras med innehåll som skapats av denna användare?"
 
-#: wp-admin/includes/ms.php:1057 wp-admin/users.php:272
+#: wp-admin/includes/ms.php:1057 wp-admin/users.php:273
 msgid "Attribute all content to:"
 msgstr "Associera allt innehåll till:"
 
@@ -3784,15 +3784,15 @@ msgstr "Fil-URL:"
 msgid "In the <strong>In Response To</strong> column, there are three elements. The text is the name of the post that inspired the comment, and links to the post editor for that entry. The View Post link leads to that post on your live site. The small bubble with the number in it shows the number of approved comments that post has received. If there are pending comments, a red notification circle with the number of pending comments is displayed. Clicking the notification circle will filter the comments screen to show only pending comments on that post."
 msgstr "I kolumnen <strong>Som svar till</strong> så finns tre element. Texten är titeln för för inlägget som inspirerade kommentaren och länkar till sidan för att redigera inlägget i fråga. Länken Visa inlägg leder dig till inlägget på sidan. Den lilla pratbubblan med en siffra i visar antalet godkända kommentarer för inlägget. Om pratbubblan är grå så har alla kommentarer redan granskats för inlägget. Om den är röd så finns det nya kommentarer att granska. Att klicka på pratbubblan filtrerar redigeringssidan för att endast visa kommentarer för inlägget i fråga."
 
-#: wp-admin/users.php:374
+#: wp-admin/users.php:375
 msgid "ID #%1$s: %2$s <strong>You don't have permission to remove this user.</strong>"
 msgstr "ID #%1$s: %2$s <strong>Du saknar behörighet för att ta bort denna användare.</strong>"
 
-#: wp-admin/users.php:372
+#: wp-admin/users.php:373
 msgid "ID #%1$s: %2$s <strong>The current user will not be removed.</strong>"
 msgstr "ID #%1$s: %2$s <strong>Aktuell användare kommer inte att tas bort.</strong>"
 
-#: wp-admin/users.php:252 wp-admin/users.php:376
+#: wp-admin/users.php:253 wp-admin/users.php:377
 msgid "ID #%1$s: %2$s"
 msgstr "ID #%1$s: %2$s"
 
@@ -3800,11 +3800,11 @@ msgstr "ID #%1$s: %2$s"
 msgid "Used: %1$s%% of %2$s"
 msgstr "Använt: %1$s%% av %2$s"
 
-#: wp-admin/users.php:250
+#: wp-admin/users.php:251
 msgid "ID #%1$s: %2$s <strong>The current user will not be deleted.</strong>"
 msgstr "ID #%1$s: %2$s <strong>Aktuell användare kommer inte att raderas.</strong>"
 
-#: wp-admin/users.php:234
+#: wp-admin/users.php:235
 msgid "Please select an option."
 msgstr "Var vänlig ange ett val."
 
@@ -4186,11 +4186,11 @@ msgstr "Din <code>wp-config.php</code> har inget tabellprefix för databasen ang
 msgid "Revert to the <strong>Browser Uploader</strong> by clicking the link below the drag and drop box."
 msgstr "Använd den <strong>Webbläsarbaserade uppladdaren</strong> genom att klicka på länken under dra & släpp-boxen."
 
-#: wp-admin/users.php:417
+#: wp-admin/users.php:418
 msgid "User deleted."
 msgstr "Användare raderad."
 
-#: wp-admin/users.php:425
+#: wp-admin/users.php:426
 msgid "New user created. <a href=\"%s\">Edit user</a>"
 msgstr "Ny användare skapad. <a href=\"%s\">Redigera användare</a>"
 
@@ -4953,19 +4953,19 @@ msgstr "Visa verktygsrad på framsidan"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:223
+#: wp-admin/about.php:231
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar en säkerhetsrisk och %2$s bugg."
 msgstr[1] "<strong>Version %1$s</strong> åtgärdar en säkerhetsrisk och %2$s buggar."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:231
+#: wp-admin/about.php:55 wp-admin/about.php:239
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "För mer information, se <a href=\"%s\">detaljer för releasen</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:219
+#: wp-admin/about.php:227
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar %2$s bugg."
@@ -4973,7 +4973,7 @@ msgstr[1] "<strong>Version %1$s</strong> åtgärdar %2$s buggar."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:227
+#: wp-admin/about.php:53 wp-admin/about.php:235
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Version %1$s</strong> åtgärdar ett par sårbarheter och %2$s bugg."
@@ -4983,11 +4983,11 @@ msgstr[1] "<strong>Version %1$s</strong> åtgärdar ett par sårbarheter och %2$
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner."
 msgstr "Välkommen till din adminpanel för WordPress! Detta är sidan du kommer att se när du loggar in på din webbplats. Den ger dig tillgång till alla administrativa sidor för att hantera din webbplats.. Du kan hitta hjälp för alla sidor i administrationen genom att klicka på fliken Hjälp uppe i hörnet."
 
-#: wp-admin/about.php:204
+#: wp-admin/about.php:212
 msgid "Maintenance Release"
 msgstr "Underhållsrelease"
 
-#: wp-admin/about.php:207
+#: wp-admin/about.php:215
 msgid "Security Release"
 msgstr "Säkerhetsrelease"
 
@@ -4995,12 +4995,14 @@ msgstr "Säkerhetsrelease"
 msgid "What&#8217;s New"
 msgstr "Vad är nytt"
 
-#: wp-admin/about.php:210
+#: wp-admin/about.php:52 wp-admin/about.php:218
 msgid "Maintenance and Security Release"
-msgstr "Underhålls och säkerhetsrelease"
+msgid_plural "Maintenance and Security Releases"
+msgstr[0] "Underhålls och säkerhetsrelease"
+msgstr[1] "Underhålls och säkerhetsreleaser"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:216
+#: wp-admin/about.php:224
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "<strong>Version %s</strong> åtgärdar sårbarheter."
 
@@ -5012,7 +5014,7 @@ msgstr "Den här sidan låter dig välja din permalänksstruktur, Du kan välja 
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Välkommen till WordPress %1$s. <a href=\"%2$s\">Läs mer</a>."
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:197
 msgid "Return to Updates"
 msgstr "Återgå till uppdateringar"
 
@@ -5300,11 +5302,11 @@ msgstr "Troligen används direkt infogande av wp-admin/includes/template.php fö
 msgid "Welcome to WordPress %s"
 msgstr "Välkommen till WordPress %s"
 
-#: wp-admin/about.php:189
+#: wp-admin/about.php:197
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Återgå till Adminpanel &rarr; Uppdateringar"
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:200
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Gå till Adminpanel &rarr; Hem"
 
@@ -5316,7 +5318,7 @@ msgstr "WordPress är skapat av ett världsomspännande team av passionerade ind
 msgid "Core Developers"
 msgstr "Kärnutvecklare"
 
-#: wp-admin/about.php:125
+#: wp-admin/about.php:133
 msgid "Under the Hood"
 msgstr "Under huven"
 
@@ -5524,7 +5526,7 @@ msgstr "Installerade tillägg"
 #. translators: %s: search keywords
 #: wp-admin/edit-comments.php:197 wp-admin/edit-tags.php:311
 #: wp-admin/edit.php:307 wp-admin/link-manager.php:78 wp-admin/plugins.php:515
-#: wp-admin/upload.php:224 wp-admin/users.php:480
+#: wp-admin/upload.php:224 wp-admin/users.php:481
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Sökresultat för &#8221;%s&#8221;"
 
@@ -5637,12 +5639,12 @@ msgstr "Tillägg %s"
 msgid "Delete Site"
 msgstr "Radera webbplats"
 
-#: wp-admin/users.php:444
+#: wp-admin/users.php:445
 msgid "User removed from this site."
 msgstr "Användaren har tagits bort från den här webbplatsen."
 
-#: wp-admin/users.php:300 wp-admin/users.php:308 wp-admin/users.php:335
-#: wp-admin/users.php:343
+#: wp-admin/users.php:301 wp-admin/users.php:309 wp-admin/users.php:336
+#: wp-admin/users.php:344
 msgid "You can&#8217;t remove users."
 msgstr "Du har inte tillräcklig behörighet för att radera användare."
 
@@ -5661,13 +5663,13 @@ msgid "You can&#8217;t give users that role."
 msgstr "Du har inte tillräcklig behörighet för att ge användare den rollen."
 
 #: wp-admin/menu.php:220 wp-admin/menu.php:222 wp-admin/user-edit.php:194
-#: wp-admin/users.php:474
+#: wp-admin/users.php:475
 msgctxt "user"
 msgid "Add New"
 msgstr "Lägg till ny"
 
 #: wp-admin/includes/dashboard.php:406 wp-admin/includes/dashboard.php:408
-#: wp-admin/users.php:487
+#: wp-admin/users.php:488
 msgid "Search Users"
 msgstr "Sök användare"
 
@@ -5680,11 +5682,11 @@ msgstr "Inställningarna sparade."
 msgid "Click to view entire list of files which will be deleted"
 msgstr "Klicka för att visa hela listan med filer som kommer att raderas"
 
-#: wp-admin/includes/ms.php:1085 wp-admin/users.php:286
+#: wp-admin/includes/ms.php:1085 wp-admin/users.php:287
 msgid "Confirm Deletion"
 msgstr "Bekräfta radering"
 
-#: wp-admin/users.php:433
+#: wp-admin/users.php:434
 msgid "Changed roles."
 msgstr "Rollerna är ändrade."
 
@@ -5991,7 +5993,7 @@ msgstr "<strong>Slumpvis:</strong> Visa olika bilder slumpvis på varje sida."
 msgid "Layout"
 msgstr "Layout"
 
-#: wp-admin/users.php:239
+#: wp-admin/users.php:240
 msgid "You have specified this user for deletion:"
 msgstr "Du har markerat denna användare för radering:"
 
@@ -6026,7 +6028,7 @@ msgstr "Inläggsformat standard"
 msgid "You do not have sufficient permissions to update this site."
 msgstr "Du har inte tillräcklig behörighet för att uppdatera denna webbplats."
 
-#: wp-admin/user-edit.php:196 wp-admin/users.php:476
+#: wp-admin/user-edit.php:196 wp-admin/users.php:477
 msgctxt "user"
 msgid "Add Existing"
 msgstr "Lägg till befintlig"
@@ -6625,7 +6627,7 @@ msgid "Home: %s"
 msgstr "Hem: %s"
 
 #: wp-admin/import.php:57 wp-admin/includes/network.php:105
-#: wp-admin/includes/network.php:122 wp-admin/users.php:234
+#: wp-admin/includes/network.php:122 wp-admin/users.php:235
 msgid "ERROR:"
 msgstr "FEL:"
 
@@ -7002,7 +7004,7 @@ msgstr "Använd Blogga det här för att klippa in text, bilder och videoklipp f
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Ingen roll för den här webbplatsen &mdash;"
 
-#: wp-admin/users.php:357
+#: wp-admin/users.php:358
 msgid "Remove Users from Site"
 msgstr "Ta bort användare från webbplats"
 
@@ -7138,23 +7140,23 @@ msgstr "Visningsalternativ"
 msgid "User deletion is not allowed from this screen."
 msgstr "Radering av användare är inte tillåtet via denna skärm."
 
-#: wp-admin/users.php:362
+#: wp-admin/users.php:363
 msgid "You have specified these users for removal:"
 msgstr "Du har markerat följande användare för radering:"
 
-#: wp-admin/users.php:384
+#: wp-admin/users.php:385
 msgid "Confirm Removal"
 msgstr "Bekräfta borttagning"
 
-#: wp-admin/users.php:386
+#: wp-admin/users.php:387
 msgid "There are no valid users selected for removal."
 msgstr "Inga giltiga användare är valda för borttagning."
 
-#: wp-admin/users.php:447
+#: wp-admin/users.php:448
 msgid "You can't remove the current user."
 msgstr "Du kan inte radera den nuvarande användaren."
 
-#: wp-admin/users.php:448
+#: wp-admin/users.php:449
 msgid "Other users have been removed."
 msgstr "Andra användare har tagits bort."
 
@@ -7492,7 +7494,7 @@ msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
 msgstr[0] "Insticksprogram <span class=\"count\">(%s)</span>"
 msgstr[1] "Insticksprogram <span class=\"count\">(%s)</span>"
 
-#: wp-admin/about.php:192
+#: wp-admin/about.php:200
 msgid "Go to Dashboard"
 msgstr "Gå till adminpanelen"
 
@@ -8720,31 +8722,31 @@ msgstr "Du saknar rättigheter för att redigera den användaren."
 msgid "You can&#8217;t delete users."
 msgstr "Du saknar rättigheter för att radera användare."
 
-#: wp-admin/users.php:231
+#: wp-admin/users.php:232
 msgid "Delete Users"
 msgstr "Radera användare"
 
-#: wp-admin/users.php:288
+#: wp-admin/users.php:289
 msgid "There are no valid users selected for deletion."
 msgstr "Inga giltiga användare är valda för radering."
 
-#: wp-admin/users.php:429
+#: wp-admin/users.php:430
 msgid "New user created."
 msgstr "Ny användare skapad."
 
-#: wp-admin/users.php:436
+#: wp-admin/users.php:437
 msgid "The current user&#8217;s role must have user editing capabilities."
 msgstr "Den nuvarande användarens roll måste ha rättigheten för att ändra användares rättigheter."
 
-#: wp-admin/users.php:437
+#: wp-admin/users.php:438
 msgid "Other user roles have been changed."
 msgstr "Andra användares roller har ändrats."
 
-#: wp-admin/users.php:440
+#: wp-admin/users.php:441
 msgid "You can&#8217;t delete the current user."
 msgstr "Du kan inte radera den nuvarande användaren."
 
-#: wp-admin/users.php:441
+#: wp-admin/users.php:442
 msgid "Other users have been deleted."
 msgstr "Andra användare har raderats."
 
