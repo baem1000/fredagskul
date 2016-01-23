@@ -57,9 +57,26 @@ a
 	font-size: 14px;
 }
 
+.form-control
+{
+	background: #eee;
+	border: 2px solid #eee;
+	box-shadow: none;
+}
+
+.form-control:focus
+{
+	background: #fff;
+}
+
+.form-group-lg .form-control, .input-lg
+{
+	height: 50px;
+}
+
 .btn-lg
 {
-	padding: 13px 20px;
+	padding: 15px 20px;
 	border-radius: 5px;
 }
 
@@ -210,13 +227,14 @@ a
 	.navbar-default .navbar-nav > li.menu-item-action  > a
 	{
 		line-height: 40px;
-		border: 2px solid #777;
+		border: 2px solid #eee;
 		color: #777;
 	}
 
 	.navbar-default .navbar-nav > li.menu-item-action  > a:hover
 	{
 		background: #777;
+		border: 2px solid #777;
 		color: #fff;
 	}	
 

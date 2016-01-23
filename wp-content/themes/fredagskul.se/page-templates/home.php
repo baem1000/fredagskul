@@ -41,7 +41,7 @@ get_header(); ?>
 
 			<div id="mc_embed_signup" class="form-inline form-group-lg">
 				<form action="//fredagskul.us11.list-manage.com/subscribe/post-json?u=71d2b0d0fc8846549d2006dcf&amp;id=14ad7b4354&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-					<input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="din@epost.se" required="">
+					<input type="email" value="" name="EMAIL" class="email form-control input-lg" id="mce-EMAIL" placeholder="din@epost.se" required="">
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_58abcfa203271a9db312e69fc_ee0af79b60" value=""></div>
 					<input type="submit" value="Prenumerera" name="subscribe" id="mc-embedded-subscribe" class="button--primary btn btn-success btn-lg">
 				</form>

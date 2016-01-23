@@ -59,7 +59,7 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="home-link navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<h1 class="site-title text-uppercase"><img src="/wp-content/uploads/2015/12/fredagskul.png" style="float: left; width: 60px; margin-top: -15px;" /><?php bloginfo( 'name' ); ?></h1>
+					<h1 class="site-title text-uppercase"><img src="/fredagskul/wp-content/uploads/2015/12/fredagskul.png" style="float: left; width: 60px; margin-top: -15px;" /><?php bloginfo( 'name' ); ?></h1>
 					<h2 class="site-description text-muted"><?php bloginfo( 'description' ); ?></h2>
 				</a>
 		    </div>
