@@ -1,0 +1,245 @@
+/*
+Theme Name: Fredagskul.se
+Author: 
+Author URI: 
+Version: 1.0
+Text Domain: fredagskul
+
+*/
+
+body
+{
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+*:focus {
+    outline: 0!important;
+}
+
+textarea
+{
+	resize: vertical;
+}
+
+a
+{
+	transition: color ease 0.2s, background ease 0.2s, border-color ease 0.2s;
+}
+
+.text-muted
+{
+	color: #999;
+}
+
+.btn-success
+{
+	border-color: #5cb85c;
+}
+
+.full-width
+{
+	width: 100%;
+	height: auto;
+}
+
+.aligncenter
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn
+{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+.btn-lg
+{
+	padding: 13px 20px;
+	border-radius: 5px;
+}
+
+.site-title
+{
+	font-size: 18px;
+	font-weight: 900;
+	margin: 0px;
+}
+
+.site-description
+{
+	display: none;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.navbar-default
+{
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar-toggle .icon-bar
+{
+	height: 3px;
+}
+
+.navbar-default .navbar-toggle
+{
+	border: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+{
+	background: transparent;
+}
+
+.navbar-collapse
+{
+	border-bottom: 1px solid #eee;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li.current-menu-item > a
+{
+	background: #f7f7f7;
+	color: #222;	
+}
+
+.site-content
+{
+	padding: 30px 30px 60px;
+	text-align: center;
+}
+
+.entry-title
+{
+	text-transform: uppercase;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.main-content p
+{
+	margin: 0px 0px 20px;
+}
+
+.edit-link
+{
+	display: none;
+}
+
+.home .entry-title
+{
+	display: none;
+}
+
+.home .main-content h1
+{
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.home .main-content h2
+{
+	font-weight: 100; 
+	color: #999;
+}
+
+.home .entry-content
+{
+	margin-bottom: 40px;
+}
+
+.home .main-content .btn-success
+{
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+@media (min-width: 768px)
+{
+
+	.navbar-collapse
+	{
+		border: none;
+	}
+
+	.navbar-default
+	{
+		background: transparent;
+		border: none;
+	}
+
+	.navbar
+	{
+		padding: 30px;
+	}
+
+	.navbar-nav
+	{
+		float: right;
+	}
+
+	.navbar-default .navbar-nav > li > a
+	{
+		padding: 0px 15px;
+		line-height: 44px;
+		margin: 0px 2px;
+		border-radius: 5px;
+	}
+
+	.navbar-default .navbar-nav > li > a:hover
+	{
+		background: #f7f7f7;
+	}
+
+	.navbar-default .navbar-nav > li.menu-item-action  > a
+	{
+		line-height: 40px;
+		border: 2px solid #5cb85c;
+		color: #5cb85c;
+	}
+
+	.navbar-default .navbar-nav > li.menu-item-action  > a:hover
+	{
+		background: #5cb85c;
+		color: #fff;
+	}	
+
+	.page-template-boxed .main-content
+	{
+		width: 800px;
+		margin: auto;
+	}
+
+	.home .main-content h1
+	{
+		font-size: 50px;
+	}
+
+
+	.site-footer
+	{
+		padding: 30px;
+		margin-top: 50px;
+	}
+
+	.home .main-content .btn-success
+	{
+		width: auto;
+		margin: 0px;
+	}
+}
