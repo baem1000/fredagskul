@@ -39,8 +39,8 @@ get_header(); ?>
 				<button type="submit" class="btn btn-success btn-lg">Prenumerera</button>
 			</div>-->
 
-			<div id="mc_embed_signup" class="form-inline form-group-lg">
-				<form action="//fredagskul.us11.list-manage.com/subscribe/post-json?u=71d2b0d0fc8846549d2006dcf&amp;id=14ad7b4354&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+			<div id="mc_embed_signup" class="form-inline signup-form">
+				<form action="//fredagskul.us11.list-manage.com/subscribe/post-json?u=71d2b0d0fc8846549d2006dcf&amp;id=14ad7b4354&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">					
 					<input type="email" value="" name="EMAIL" class="email form-control input-lg" id="mce-EMAIL" placeholder="din@epost.se" required="">
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_58abcfa203271a9db312e69fc_ee0af79b60" value=""></div>
 					<input type="submit" value="Prenumerera" name="subscribe" id="mc-embedded-subscribe" class="button--primary btn btn-success btn-lg">
@@ -70,12 +70,12 @@ get_header(); ?>
 			     
 			      if (data.result != "success") {
 			        var message = data.msg.substring(4);
-			        $('#notification_container').html('<span class="alert">Felaktig epost, kontrollera att du fyllt i rätt, din@epost.se.</span>');
+			        $('#notification_container').html('<span class="text-warning"><i class="fa fa-exclamation-triangle"></i> Felaktig epost, kontrollera att du fyllt i rätt, din@epost.se.</span>');
 			      } 
 
 			      else {
 			        var message = data.msg;
-			        $('#notification_container').html('<span class="success">Nästan klar... Vi behöver bekräfta din e-post. För att slutföra registrering, klicka på länken vi skickat.</span>');
+			        $('#notification_container').html('<span class="text-success">Nästan klar... Vi behöver bekräfta din e-post. För att slutföra registrering, klicka på länken vi skickat.</span>');
 			      }
 			    }
 			  });

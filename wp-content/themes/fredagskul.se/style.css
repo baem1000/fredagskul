@@ -10,7 +10,7 @@ Text Domain: fredagskul
 body
 {
 	font-family: Lato;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 100;
 }
 
@@ -23,7 +23,7 @@ textarea
 	resize: vertical;
 }
 
-a
+a, .btn
 {
 	transition: color ease 0.2s, background ease 0.2s, border-color ease 0.2s;
 }
@@ -31,6 +31,11 @@ a
 .text-muted
 {
 	color: #999;
+}
+
+.text-warning
+{
+	color: #ffae00;
 }
 
 .btn-success
@@ -52,18 +57,19 @@ a
 
 .btn
 {
-	text-transform: uppercase;
-	font-weight: normal;
-	font-size: 16px;
 	border: none;
+}
+
+.btn-success:hover
+{
+	background-color: #6cbf6c;
 }
 
 .form-control
 {
-	background: #eee;
-	border: 2px solid #eee;
+	background: #f2f2f2;
+	border: 2px solid #f2f2f2;
 	box-shadow: none;
-	transition: color in-ease 2s;
 }
 
 .form-control:focus
@@ -75,25 +81,30 @@ a
 
 .form-control:focus::-webkit-input-placeholder
 {
-	color: #fff;
+	color: #ddd;
 }
 
 
-.form-group-lg .form-control, .input-lg
+.input-lg
 {
-	height: 54px;
+	height: 70px;
+	line-height: 70px;
+	padding: 0px 20px;
+	font-size: 24px;
 }
 
 .btn-lg
 {
-	padding: 0px 30px;
-	height: 54px;
+	padding: 0px 40px;
+	height: 70px;
 	border-radius: 5px;
+	font-size: 24px;
+	font-weight: 100;
 }
 
 .site-title
 {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 900;
 	margin: 0px;
 }
@@ -176,14 +187,14 @@ a
 {
 	font-weight: 900;
 	text-transform: uppercase;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .home .main-content h2
 {
 	font-weight: 100; 
 	color: #999;
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .home .entry-content
@@ -197,6 +208,20 @@ a
 	margin-top: 10px;
 }
 
+.signup-form form
+{
+	margin-bottom: 20px;
+}
+
+.wpcf7-not-valid
+{
+	border-color: #ffae00;
+}
+
+span.wpcf7-not-valid-tip, div.wpcf7-response-output, .wpcf7 .ajax-loader
+{
+	display: none!important;
+}
 
 @media (min-width: 768px)
 {
@@ -215,6 +240,7 @@ a
 	.navbar
 	{
 		padding: 30px;
+		margin-bottom: 0px;
 	}
 
 	.navbar-nav
@@ -245,24 +271,18 @@ a
 	.navbar-default .navbar-nav > li.menu-item-action  > a:hover
 	{
 		background: #777;
-		border: 2px solid #777;
+		border-color: #777;
 		color: #fff;
 	}	
 
-	.page-template-boxed .main-content
-	{
-		width: 800px;
-		margin: auto;
-	}
-
 	.home .main-content h1
 	{
-		font-size: 50px;
+		font-size: 54px;
 	}
 
 	.home .main-content	.form-control
 	{
-		width: 300px;
+		width: 360px;
 	}
 
 	.site-footer
@@ -275,5 +295,14 @@ a
 	{
 		width: auto;
 		margin: 0px;
+	}
+}
+
+@media (min-width: 900px)
+{
+	.page-template-boxed .main-content
+	{
+		width: 900px;
+		margin: auto;
 	}
 }
