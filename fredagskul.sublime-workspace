@@ -40,10 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "wp-trackback.php",
+			"file": "wp-content/themes/fredagskul.se/style.css",
 			"settings":
 			{
-				"buffer_size": 4035,
+				"buffer_size": 3501,
 				"line_ending": "Unix"
 			}
 		}
@@ -78,8 +78,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/page-templates"
+	],
 	"file_history":
 	[
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/page-templates/boxed.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-trackback.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/page-templates/home.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/easysignup/wp-settings.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/easysignup/wp-content/themes/twentysixteen/page-templates/signup.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-config.php",
@@ -87,8 +99,6 @@
 		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/fredagskul.sublime-project",
 		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/style.css",
 		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/footer.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/header.php",
-		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul.se/page-templates/home.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul_1.0/header.php",
 		"/Applications/XAMPP/xamppfiles/htdocs/fredagskul/wp-content/themes/fredagskul_1.0/style.css",
 		"/Applications/XAMPP/xamppfiles/htdocs/portfolio/wp-content/themes/cleanslate/style.css",
@@ -107,7 +117,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -121,6 +131,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".home .main-content h1",
+			"btn",
+			"18px",
+			".home .main-content .form-contro",
+			".home .main-content .form-control",
+			".input-lg",
 			"entry-title",
 			"30px",
 			"site-info",
@@ -152,24 +168,24 @@
 			[
 				{
 					"buffer": 0,
-					"file": "wp-trackback.php",
+					"file": "wp-content/themes/fredagskul.se/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4035,
+						"buffer_size": 3501,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								180,
+								180
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -259,7 +275,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 243.0,
+	"side_bar_width": 349.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
