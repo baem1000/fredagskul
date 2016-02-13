@@ -43,7 +43,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 2756,
+				"buffer_size": 3512,
 				"line_ending": "Unix"
 			}
 		}
@@ -157,15 +157,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2756,
+						"buffer_size": 3512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1534,
-								1534
+								0,
+								0
 							]
 						],
 						"settings":
