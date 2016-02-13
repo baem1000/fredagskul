@@ -10,8 +10,8 @@ Text Domain: fredagskul
 body
 {
 	font-family: Lato;
-	font-size: 20px;
-	font-weight: 100;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 *:focus {
@@ -87,24 +87,21 @@ a, .btn
 
 .input-lg
 {
-	height: 70px;
-	line-height: 70px;
+	height: 60px;
+	line-height: 60px;
 	padding: 0px 20px;
-	font-size: 24px;
 }
 
 .btn-lg
 {
-	padding: 0px 40px;
-	height: 70px;
+	padding: 0px 10px;
+	height: 60px;
 	border-radius: 5px;
-	font-size: 24px;
-	font-weight: 100;
 }
 
 .site-title
 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 900;
 	margin: 0px;
 }
@@ -144,9 +141,8 @@ a, .btn
 
 .navbar-default .navbar-nav > li > a
 {
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 .navbar-default .navbar-nav > li.current-menu-item > a
@@ -163,8 +159,7 @@ a, .btn
 
 .entry-title
 {
-	text-transform: uppercase;
-	font-weight: 900;
+	font-weight: bold;
 	margin-bottom: 20px;
 }
 
@@ -186,7 +181,6 @@ a, .btn
 .home .main-content h1
 {
 	font-weight: 900;
-	text-transform: uppercase;
 	margin-top: 30px;
 }
 
@@ -204,7 +198,6 @@ a, .btn
 
 .home .main-content .btn-success
 {
-	width: 100%;
 	margin-top: 10px;
 }
 
@@ -221,6 +214,18 @@ a, .btn
 span.wpcf7-not-valid-tip, div.wpcf7-response-output, .wpcf7 .ajax-loader
 {
 	display: none!important;
+}
+
+.row-sm [class^=col-]
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.row-sm
+{
+	margin-left: -5px;
+	margin-right: -5px;
 }
 
 @media (min-width: 768px)
@@ -277,12 +282,8 @@ span.wpcf7-not-valid-tip, div.wpcf7-response-output, .wpcf7 .ajax-loader
 
 	.home .main-content h1
 	{
-		font-size: 54px;
-	}
-
-	.home .main-content	.form-control
-	{
-		width: 360px;
+		font-size: 46px;
+		letter-spacing: -1px;
 	}
 
 	.site-footer
@@ -293,16 +294,21 @@ span.wpcf7-not-valid-tip, div.wpcf7-response-output, .wpcf7 .ajax-loader
 
 	.home .main-content .btn-success
 	{
-		width: auto;
 		margin: 0px;
 	}
 }
 
-@media (min-width: 900px)
+@media (min-width: 800px)
 {
 	.page-template-boxed .main-content
 	{
-		width: 900px;
+		width: 800px;
 		margin: auto;
 	}
+
+	.home .main-content
+	{
+		width: 600px;
+		margin: auto;
+	}	
 }
