@@ -46,6 +46,14 @@
 				"buffer_size": 3501,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "wp-content/themes/fredagskul.se/page-templates/home.php",
+			"settings":
+			{
+				"buffer_size": 3396,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -163,7 +171,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -190,6 +198,35 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/fredagskul.se/page-templates/home.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 487.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
