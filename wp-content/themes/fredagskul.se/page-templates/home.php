@@ -34,12 +34,7 @@ get_header(); ?>
 				endwhile;
 			?>
 
-			<!--<div class="form-inline form-group-lg">
-				<input type="text" class="form-control" placeholder="Din e-postadress" style="width: 300px;">
-				<button type="submit" class="btn btn-success btn-lg">Prenumerera</button>
-			</div>-->
-
-			<div id="mc_embed_signup" class="signup-form">
+			<!--<div id="mc_embed_signup" class="signup-form">
 				<form action="//fredagskul.us11.list-manage.com/subscribe/post-json?u=71d2b0d0fc8846549d2006dcf&amp;id=14ad7b4354&amp;c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">	
 					<div class="row row-sm">
 						<div class="col-sm-8">				
@@ -86,7 +81,7 @@ get_header(); ?>
 			    }
 			  });
 			}
-			</script>
+			</script> -->
 		</div><!-- #content -->
 	</div><!-- #primary -->
 </div><!-- #main-content -->
